@@ -36,3 +36,10 @@ footer {
     background-color: #4CAF50;
     color: white;
 }
+.profile-photo {
+    max-width: 150px; /* 最大幅を設定します。必要に応じて変更可能です */
+    height: auto;    /* 高さを自動調整します */
+    border-radius: 50%; /* 丸い形を維持します（オプション） */
+    display: block;   /* センターに配置するために使います */
+    margin: 0 auto;   /* センター配置を確実にするための余白設定です */
+}
