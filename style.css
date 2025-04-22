@@ -1,6 +1,7 @@
 body {
+    font-size: 18px;
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 1.8;
     margin: 0;
     padding: 0;
     background-color: #f5f5f5;
@@ -14,9 +15,12 @@ header {
 }
 
 h1 {
+    font-size: 28px;
     margin: 0;
 }
-
+h2 {
+    font-size: 24px;
+}
 main {
     padding: 20px;
 }
@@ -65,7 +69,7 @@ footer {
     }
 }
 .profile-text {
-    font-size: 18px; /* テキストサイズを見やすく */
+    font-size: 20px; /* テキストサイズを見やすく */
     color: #333; /* 文字色を少し濃くして視認性を向上 */
 }
 
