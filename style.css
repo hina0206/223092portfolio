@@ -37,14 +37,32 @@ footer {
     color: white;
 }
 .profile-container {
-    display: flex; /* Flexboxを適用 */
-    align-items: center; /* 縦方向の中央揃え */
-    gap: 20px; /* 写真とテキストの間隔を調整 */
+    display: flex; /* 横並びに配置 */
+    align-items: center; /* 縦の位置をそろえる */
+    gap: 20px; /* 写真とテキストの間に余白 */
+}
+
+/* スマホや縦長の画面（幅600px以下）では「上下配置」に切り替え */
+@media screen and (max-width: 600px) {
+    .profile-container {
+        flex-direction: column; /* 縦並びにする */
+        align-items: center; /* 中央揃え */
+    }
+    .profile-photo {
+        max-width: 100px; /* スマホでは小さめに */
+    }
 }
 .profile-photo {
-    max-width: 50%; /* 最大幅を設定します。必要に応じて変更可能です */
+    max-width: 30%; /* 最大幅を設定します。必要に応じて変更可能です */
     height: auto;    /* 高さを自動調整します */
     border-radius: 50%; /* 丸い形を維持します（オプション） */
+    display: block;
+    margin: 0 auto;
+}
+@media screen and (min-width: 1024px){
+    .profile-photo {
+        max-width: 150px; /*PCではこれ以上大きくならないように */
+    }
 }
 .profile-text {
     font-size: 18px; /* テキストサイズを見やすく */
