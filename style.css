@@ -37,7 +37,7 @@ footer {
     color: white;
 }
 .profile-photo {
-    max-width: 50px; /* 最大幅を設定します。必要に応じて変更可能です */
+    max-width: 100%; /* 最大幅を設定します。必要に応じて変更可能です */
     height: auto;    /* 高さを自動調整します */
     border-radius: 50%; /* 丸い形を維持します（オプション） */
     display: block;   /* センターに配置するために使います */
