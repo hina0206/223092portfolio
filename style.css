@@ -80,3 +80,7 @@ footer {
 #profile, #works {
     padding: 20px;
 }
+
+.profile-container div {
+    flex: 0 0 auto; /* 幅を柔軟にしすぎないよう固定 */
+}
