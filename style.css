@@ -57,7 +57,6 @@ footer {
     max-width: 200px; /* 最大幅を設定します。必要に応じて変更可能です */
     height: auto;    /* 高さを自動調整します */
     border-radius: 50%; /* 丸い形を維持します（オプション） */
-    flex-shrink: 0; /* 画像サイズが縮まないように */
 }
 @media screen and (min-width: 1024px){
     .profile-photo {
