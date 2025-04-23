@@ -79,7 +79,7 @@ footer {
 
 /* 写真のサイズ調整 */
 .img-fluid {
-    max-width: 150px;
+    max-width: 200px;
     height: auto;
 }
 
