@@ -58,9 +58,9 @@ footer {
     height: auto;    /* 高さを自動調整します */
     border-radius: 50%; /* 丸い形を維持します（オプション） */
 }
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
     .profile-photo {
-        max-width: 150px; /*PCではこれ以上大きくならないように */
+        max-width: 250px !important; /* PC用の最大サイズを確実に適用 */
     }
 }
 .profile-text {
