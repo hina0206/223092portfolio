@@ -57,7 +57,8 @@ footer {
     }
 }
 .profile-photo {
-    max-width: 30%; /* 最大幅を設定します。必要に応じて変更可能です */
+    flex: 1;
+    max-width: 120px; /* 最大幅を設定します。必要に応じて変更可能です */
     height: auto;    /* 高さを自動調整します */
     border-radius: 50%; /* 丸い形を維持します（オプション） */
     display: block;
@@ -69,6 +70,7 @@ footer {
     }
 }
 .profile-text {
+    flex: 2;
     font-size: 20px; /* テキストサイズを見やすく */
     color: #333; /* 文字色を少し濃くして視認性を向上 */
 }
