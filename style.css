@@ -43,7 +43,7 @@ footer {
 .profile-container {
     display: flex; /* 横並びに配置 */
     align-items: center; /* 縦の位置をそろえる */
-    justify-content: space-between; /* 左右に広げる */
+    justify-content: flex-start; /* 左寄せ */
     gap: 20px; /* 写真とテキストの間に余白 */
     max-width: 600px; /* コンテンツの最大幅を調整 */
     margin: 0 auto; /* 全体のバランスを中央に */
@@ -63,7 +63,7 @@ footer {
     max-width: 120px; /* 最大幅を設定します。必要に応じて変更可能です */
     height: auto;    /* 高さを自動調整します */
     border-radius: 50%; /* 丸い形を維持します（オプション） */
-    margin: 0 auto;
+    flex-shrink: 0; /* 画像サイズが縮まないように */
 }
 @media screen and (min-width: 1024px){
     .profile-photo {
@@ -74,5 +74,6 @@ footer {
     flex-grow: 1;
     font-size: 20px; /* テキストサイズを見やすく */
     color: #333; /* 文字色を少し濃くして視認性を向上 */
+    text-align: left; /* テキストの左揃えを維持 */
 }
 
