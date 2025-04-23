@@ -77,3 +77,13 @@ footer {
     text-align: left; /* テキストの左揃えを維持 */
 }
 
+/* 写真のサイズ調整 */
+.img-fluid {
+    max-width: 150px;
+    height: auto;
+}
+
+/* セクションの余白調整 */
+#profile, #works {
+    padding: 20px;
+}
